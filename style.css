@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+header{
+    background-color: black;
+    height: 19vh;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 19vh;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    
+}
+
+main{
+    background-image: url(imagenes/prime_video.png);
+    background-size: cover;
+    background-position: center;
+    height: 69vh;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 400px;   
+    flex-wrap: wrap;
+}
+
+img{
+    width: 354px;
+    height: 546px;
+    margin: 48px 35px 5px 35px;
+
+}
+
+figcaption{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    width: 1440px;
+    height: 19vh;
+    margin-top: 1450px;
+    border: 0px, 0px, 1px, 0px;
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+p{
+    color: white;
+    font-size: 19px;
+    padding-top: 50px;
+}
+
+.youtube{
+    width: 68px;
+    height: 68px;
+    margin: 0 25px 0 25px;
+}
+
+.prime{
+    width: 90px;
+    height: 90px;
+    margin: 0 25px 0 25px;
+    padding-top: 20px;
+}
+
+.instagram{
+    width: 62px;
+    height: 62px;
+    margin: 0 25px 0 25px;
+}
